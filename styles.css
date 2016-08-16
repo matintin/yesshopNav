@@ -1,0 +1,33 @@
+#gnb .btnCate .category_layer{display:none;position:absolute;top:34px;left:-902px;width:980px;border:1px solid #669933;background:#f7f7f7;}
+#gnb .btnCate .category_layer ul{overflow:hidden;}
+#gnb .btnCate .category_layer li.depth{float:left;width:195px;height:auto;padding:0;background-image:none;border-left:1px solid #d7d7d7;border-bottom:1px solid #d7d7d7;}
+#gnb .btnCate .category_layer li.line_first{border-left:none;}
+#gnb .btnCate .category_layer li.depth dl dt{height:36px;padding:0 0 0 15px;background:#fff;}
+#gnb .btnCate .category_layer li.depth dl dt a{color:#000;font-size:13px;font-weight:bold;line-height:35px;}
+#gnb .btnCate .category_layer li.depth dl dt a:hover{color:#669933;}
+#gnb .btnCate .category_layer li.depth dl dd{height:335px;padding:10px 15px 10px 15px;}
+#gnb .btnCate .category_layer li.depth dl dd.line_02{height:330px;}
+#gnb .btnCate .category_layer li.depth dl dd ul li{float:none;height:auto;background:none;}
+#gnb .btnCate .category_layer li.depth dl dd ul li a{display:block;width:100%;padding:5px 2px;color:#000;border:none;font-size:13px;line-height:18px;float:none;}
+#gnb .btnCate .category_layer li.depth dl dd ul li a:hover{color:#669933;}
+#gnb .btnCate .category_layer .layer_closed a{position:absolute;bottom:0;right:-1px;color:#fff;font-size:24px;padding:0px 10px;border-left:1px solid #d7d7d7}
+#gnb .btnCate .category_layer .qmenu{background-color:#669933; height:35px; font-size:13px;}
+#gnb .btnCate .category_layer .qmenu span a{color:#fff;padding:10px 20px;border-right:1px solid #d7d7d7;}
+
+
+/* S : 20141016 수정*/
+/* gnb */
+.gnb_area{position:absolute;top:107px;left:0;width:100%;height:34px;border-bottom:1px solid #669933;z-index:300;} /* 20141111 border-bottom color : #a9cd2f, christmas theme border-bottom color : #f46139 */
+#gnb { width:980px; margin:0 auto; }
+#gnb > ul li{position:relative;float:left;background:url("../images/common/line_black_11.gif") no-repeat 0 12px;}
+#gnb > ul li:first-child{background-image:none;}
+#gnb > ul li .icon_hot{position:absolute;top:-14px;left:50%;margin-left:-26px;z-index:2;}
+#gnb > ul li a{float:left;padding:10px 16px 11px;font-size:12px;color:#333;}
+#gnb > ul li a.on, #gnb > ul li a:hover{position:relative;margin:-1px -1px 0 -1px;background-color:#fff;border:1px solid #669933;border-width:1px 1px 0 1px;color:#333;z-index:1;}
+#gnb > ul li .sub{display:none;width:auto;position:absolute;top:34px;left:-1px;padding:3px 0 5px 0;background-color:#fff;border:1px solid #669933;border-width:1px 1px 1px 1px;}
+#gnb > ul li .last{left:-71px;}
+#gnb > ul li .sub ul{margin:5px 8px;}
+#gnb > ul li .sub li{float:none;padding:2px 0 2px 7px;background:url("../images/common/dot_gray_04.gif") no-repeat 0 11px;white-space:normal;}
+#gnb > ul li .sub li a{float:none;display:block;margin:0;padding:2px;color:#666;border:none;line-height:16px;}
+#gnb > ul li .sub li a:hover{margin:0;color:#fff;background:#b4d44c;}
+#gnb .btnCate{float:right;;position:relative;line-height:35px;}
